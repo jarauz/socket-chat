@@ -1,5 +1,5 @@
 from socket import *
-serverIP = 'localhost'
+serverIP = "localhost"
 serverPort = 10000
 
 # Internet and UDP socket
