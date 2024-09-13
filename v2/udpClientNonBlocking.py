@@ -7,7 +7,7 @@ clientSocket = socket(AF_INET, SOCK_DGRAM)
 serverAddress = ('localhost', 10000)
 
 # Make it a non blocking socket
-clientSocket.setblocking(0)
+clientSocket.setblocking(1)
 
 # Sockets from which we expect to read
 inputs = [ clientSocket ]
