@@ -11,4 +11,4 @@ while True:
     if line is not None:
         print("Read:", line)
     # Do other work here
-    print("Doing other work here....")
+    print("Doing other work here...")
